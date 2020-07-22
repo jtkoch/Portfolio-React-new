@@ -1,22 +1,24 @@
 import React from "react"
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import styled from 'styled-components'
+
+const StickyFooter = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  border-top: 1px solid black;
+`
 
 function Footer() {
   return (
-    <footer className="mt-5">
-      <Container fluid={true} >
-        <Row className="border-top justify-content-between p-3" >
-          <Col className="p-0" md={3} sm={12}>
+    <StickyFooter className="mt-5">
+          <div>
             Jensen Koch
-          </Col>
-          <Col className="p-0 d-flex justify-content-end" md={3}>
+          </div>
+          <div>
             This site was made by Jensen Koch.
-          </Col>
-        </Row>
-      </Container>
-    </footer>
+          </div>
+    </StickyFooter>
   )
 }
  

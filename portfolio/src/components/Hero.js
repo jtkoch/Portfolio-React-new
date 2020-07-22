@@ -1,21 +1,38 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import styled from 'styled-components'
+
+const Main = styled.div`
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid black;
+`
+const Rows = styled.div`
+    padding: 1%;
+    width: 100%;
+`
+
+const Columns = styled.div`
+    padding: 2%;
+`
 
 function Hero(props) {
     return(
-        <Jumbotron className="bg-transparent jumbotron-fluid p-0">
-            <Container fluid={true}>
-                <Row className="justify-content-center py-5">
-                    <Col md={8} sm={12}>
-                        { props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1> }
-                        { props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3> }
-                        { props.text && <h3 className="lead font-weight-light">{props.text}</h3> }
-                    </Col>
-                </Row>
-            </Container>
+        <Jumbotron className="bg-transparent m-4 jumbotron-fluid p-0">
+            <Main>
+                <Rows>
+                    <Columns>
+                        { props.title && <h1 className="display-1 font-weight-bolder mb-4">{props.title}</h1> }
+                        { props.subTitle && <h3 className="display-5 font-weight-light">{props.subTitle}</h3> }
+                        { props.text && <h3 className=" mt-5 font-weight-bold">{props.text}</h3> }
+
+                    </Columns>
+                </Rows>
+            </Main>
         </Jumbotron>
     )
 }

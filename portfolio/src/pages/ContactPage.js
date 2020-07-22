@@ -66,17 +66,17 @@ formSubmit = (e) => {
 
         <Content>
           <Form className="contact-form" onSubmit={(e) => this.formSubmit(e)}>
-            <Form.Group>
-              <Form.Label className="message" htmlFor="message-input">Your Message</Form.Label>
-              <Form.Control as="textarea" rows="3" onChange={e => this.setState({ message: e.target.value })} name="message" className="message-input" type="text" placeholder="Please write your message here" value={this.state.message} required />
+            <Form.Group className="message">
+              <Form.Label htmlFor="message-input">Your Message</Form.Label>
+              <Form.Control as="textarea" rows="3" onChange={e => this.setState({ message: e.target.value })} name="message" type="text" placeholder="Please write your message here" value={this.state.message} required />
             </Form.Group>
-            <Form.Group>
-              <Form.Label className="message-name" htmlFor="message-name">Your Name</Form.Label>
-              <Form.Control onChange={e => this.setState({ name: e.target.value })} name="name" className="message-name" type="text" placeholder="Your Name" value={this.state.name} />
+            <Form.Group className="message">
+              <Form.Label htmlFor="message-name">Your Name</Form.Label>
+              <Form.Control onChange={e => this.setState({ name: e.target.value })} name="name" type="text" placeholder="Your Name" value={this.state.name} />
             </Form.Group>
-            <Form.Group>
-              <Form.Label className="message-email" htmlFor="message-email">Your Email</Form.Label>
-              <Form.Control onChange={(e) => this.setState({ email: e.target.value })} name="email" className="message-email" type="email" placeholder="your@email.com" required value={this.state.email} />
+            <Form.Group className="message">
+              <Form.Label htmlFor="message-email">Your Email</Form.Label>
+              <Form.Control onChange={(e) => this.setState({ email: e.target.value })} name="email" type="email" placeholder="your@email.com" required value={this.state.email} />
             </Form.Group>
 
             <div className="button--container">
