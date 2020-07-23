@@ -23,7 +23,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Go make something',
-        subTitle: 'Projects worth checking out', 
+        subTitle: '"Not everything that is faced can be changed, but nothing can be changed until it is faced." -James Baldwin', 
         text: 'Checkout my projects below'
       },
       about: {

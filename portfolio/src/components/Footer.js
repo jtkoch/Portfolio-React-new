@@ -9,15 +9,21 @@ const StickyFooter = styled.div`
   border-top: 1px solid black;
 `
 
+const Site = styled.div`
+  @media (max-width: 500px) {
+    display: none;
+  }
+`
+
 function Footer() {
   return (
     <StickyFooter className="mt-5">
           <div>
             Jensen Koch
           </div>
-          <div>
+          <Site>
             This site was made by Jensen Koch.
-          </div>
+          </Site>
     </StickyFooter>
   )
 }

@@ -1,17 +1,18 @@
 import React from 'react'
-
-import Hero from '../components/Hero'
-
 import styled from 'styled-components'
+import Hero from '../components/Hero'
 
 const AboutContainer = styled.div`
   height: 100%;
   width: 100%;
-
+  padding-top: 3%;
 `
 
 const Information = styled.div`
-  padding: 5%;
+  padding-bottom: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+
   font-size: 1.2rem;
 `
  
