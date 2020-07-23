@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 const Main = styled.div`
     display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -29,7 +30,7 @@ const Small = styled.h3`
     font-size: 1.5rem;
     width: 100%;
     font-weight: 500;
-    padding: 2%;
+    padding: 1%;
 
     @media (max-width: 500px) {
         font-size: 1rem;
