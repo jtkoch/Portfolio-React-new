@@ -22,7 +22,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Go make something',
+        title: 'Jensen Koch',
         subTitle: '"Not everything that is faced can be changed, but nothing can be changed until it is faced." -James Baldwin', 
         text: 'Checkout my projects below'
       },
