@@ -15,12 +15,13 @@ const Main = styled.div`
 const Head = styled.div`
     display: flex;
     flex-direction: column;
+    width: 100%;
 `
 
 const Big = styled.h1`
     font-size: 4.5rem;
     font-weight: 800;
-    padding: 2%;
+    padding: 0%;
 
     @media (max-width: 500px) {
         font-size: 2.2rem;
