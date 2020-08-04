@@ -10,9 +10,13 @@ import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import Footer from './components/Footer'
+import skulllogo from './images/skulllogo.png'
 
 const Navigation = styled.div`
   background-color: #ffbf00;
+`
+const Logo = styled.img`
+  width: 6%;
 `
 
 class App extends React.Component {
@@ -45,7 +49,7 @@ class App extends React.Component {
       <Container className="p-0" fluid={true}>
         <Navigation>
           <Navbar className="border-bottom" expand="lg">
-            <Navbar.Brand>Jensen Koch</Navbar.Brand>
+            <Logo alt="" src={skulllogo}></Logo>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle" >
