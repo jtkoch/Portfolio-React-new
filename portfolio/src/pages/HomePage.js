@@ -12,7 +12,7 @@ const Home = styled.div`
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 1%;
+    padding: 3%;
 `
 const Fonts = styled.div`
     font-size: 2rem;

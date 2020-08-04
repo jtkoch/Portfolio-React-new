@@ -11,6 +11,7 @@ import styled from 'styled-components'
 
 const LetsTalk = styled.div`
   padding-top: 3%;
+  width: 100%;
 `
  
 class ContactPage extends React.Component {
@@ -74,7 +75,7 @@ formSubmit = (e) => {
           <Form className="contact-form" onSubmit={(e) => this.formSubmit(e)}>
             <Form.Group className="message">
               <Form.Label htmlFor="message-input">Your Message</Form.Label>
-              <Form.Control as="textarea" rows="5" onChange={e => this.setState({ message: e.target.value })} name="message" type="text" placeholder="Please write your message here" value={this.state.message} required />
+              <Form.Control as="textarea" rows="8" onChange={e => this.setState({ message: e.target.value })} name="message" type="text" placeholder="Please write your message here" value={this.state.message} required />
             </Form.Group>
             <Form.Group className="message">
               <Form.Label htmlFor="message-name">Your Name</Form.Label>

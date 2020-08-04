@@ -6,7 +6,7 @@ const StickyFooter = styled.div`
   flex-direction: row;
   justify-content: space-between;
   padding: 1%;
-  border-top: 1px solid black;
+  background-color: #ffbf00;
 `
 
 const Site = styled.div`

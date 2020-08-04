@@ -4,11 +4,16 @@ import {Route, Link} from 'react-router-dom'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
+import styled from 'styled-components'
 
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import Footer from './components/Footer'
+
+const Navigation = styled.div`
+  background-color: #ffbf00;
+`
 
 class App extends React.Component {
 
@@ -23,7 +28,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Jensen Koch',
-        subTitle: '"Not everything that is faced can be changed, but nothing can be changed until it is faced." -James Baldwin', 
+        subTitle: 'Devour Information, Reproduce Greatness', 
         text: 'Checkout my projects below'
       },
       about: {
@@ -38,19 +43,20 @@ class App extends React.Component {
   render() {
     return (
       <Container className="p-0" fluid={true}>
-        
-        <Navbar className="border-bottom" bg="transparent" expand="lg">
-          <Navbar.Brand>Jensen Koch</Navbar.Brand>
+        <Navigation>
+          <Navbar className="border-bottom" expand="lg">
+            <Navbar.Brand>Jensen Koch</Navbar.Brand>
 
-          <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-          <Navbar.Collapse id="navbar-toggle" >
-            <Nav className="ml-auto">
-              <Link className="nav-link" to="/" >Home</Link>
-              <Link className="nav-link" to="/about" >About</Link>
-              <Link className="nav-link" to="/contact" >Contact</Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle" >
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/" >Home</Link>
+                <Link className="nav-link" to="/about" >About</Link>
+                <Link className="nav-link" to="/contact" >Contact</Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
+        </Navigation>
 
           <Route 
             path="/" exact render={() => <HomePage 
