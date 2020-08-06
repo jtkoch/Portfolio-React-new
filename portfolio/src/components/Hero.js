@@ -28,10 +28,10 @@ const Big = styled.h1`
     }
 `
 const Small = styled.h3`
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     width: 100%;
     font-weight: 500;
-    padding: 1%;
+    padding: 0%;
 
     @media (max-width: 500px) {
         font-size: 1rem;

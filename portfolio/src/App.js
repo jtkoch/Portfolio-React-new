@@ -17,10 +17,11 @@ const Navigation = styled.div`
   background-color: whitesmoke;
 `
 const Logo = styled.img`
-  width: 6%;
+  width: 110px;
+  margin-left: -1.5%;
 
   @media (max-width: 500px) {
-    width: 20%;
+    margin-left: -7%;
   }
 `
 
@@ -62,7 +63,7 @@ class App extends React.Component {
                 <Link style={{color: "black"}} className="nav-link" to="/" >Home</Link>
                 <Link style={{color: "black"}} className="nav-link" to="/about" >About</Link>
                 <Link style={{color: "black"}} className="nav-link" to="/contact" >Contact</Link>
-                <a style={{color: "black"}} className="nav-link" href = {resume} target = "_blank">Resume</a>
+                <a style={{color: "black"}} className="nav-link" href = {resume} target = "_blank" without rel="noopener noreferrer">Resume</a>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
