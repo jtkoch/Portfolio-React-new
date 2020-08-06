@@ -8,6 +8,7 @@ const AboutContainer = styled.div`
   height: 100%;
   width: 100%;
   padding-top: 3%;
+  padding-bottom: 7%;
   font-family: 'Josefin Sans', sans-serif;
 `
 const Information = styled.div`
@@ -30,26 +31,22 @@ function AboutPage(props) {
 
         <Information>
           <h5>
-            I'm now attending Lambda School's Full Stack Web Development Program and have learned a lot of awesome skills. I especially love coding in node.js and react.js but always
-            love learning anything new with web development that I possibly can. 
+            I'm now attending Lambda School's Full Stack Web Development Program. My strengths are coding in JavaScript Frameworks but I am a lifelong
+            learner who strives for growth. I look forward to challenges that will further develop and expand my skill set in web development. 
           </h5>
           <br></br>
           <h5>
-            I love to be active in the ways of running, cycling, rock climbing, hiking, camping, walking my dog Arthur, and playing any sport I can.
+            I love to be active. You can find me running, cycling, rock climbing, hiking, camping, and walking my dog Arthur.
           </h5>
           <br></br>
           <h5>
-            I'm into podcasts as well such as Rich Roll, Syntax, and 99% Invisible and my favorite book is "To Shake the Sleeping Self" by Jedidiah Jenkins. 
+            I also enjoy trying new beers and visiting breweries whenever I can. I have been a barista for the past few years and love the coffee industry. Exploring new 
+            coffee shops all over the world is a main priority when travelling. The dream would be to work as a developer and be able to check out new coffee shops and breweries as I write code.
           </h5>
           <br></br>
           <h5>
-            I love beer, and visiting new breweries whenever I can. I am also extremely into coffee. I have been a barista for the past few years and love the coffee industry. I also love exploring new 
-            coffee shops all over the world. The dream would be to work as a developer and be able to check out new coffee shops and breweries as I write code.
-          </h5>
-          <br></br>
-          <h5>
-            I'm a musician and have played the drums in many different ensembles from concert percussion, jazz, funk, metal, country, folk and have been in 1 semi successfull band. 
-            Music that I listen to most would include metal, jazz, and funk. You can check out my old band below
+            I'm a musician and have played the drums in many different ensembles including concert percussion, jazz, funk, metal, country, and folk.
+            Music that I listen to most would include metal, jazz, and funk. You can check out my old band below!
           <br></br>
           <br></br>
             <Point>
@@ -58,6 +55,11 @@ function AboutPage(props) {
           </h5>
           <Band target="_blank" href="https://harperbandmusic.bandcamp.com/">H\RPER</Band>
           <br></br>
+          <br></br>
+          <h5>
+            As a way to improve my growth mindset I listen to podcasts such as the Rich Roll Podcast, Syntax Web Development, and 99% Invisible. 
+            My favorite book is "To Shake the Sleeping Self" by Jedidiah Jenkins. 
+          </h5>
           <br></br>
 
         </Information>
