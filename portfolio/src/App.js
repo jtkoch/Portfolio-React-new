@@ -11,12 +11,17 @@ import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import Footer from './components/Footer'
 import skulllogo from './images/skulllogo.png'
+import resume from './images/resume.pdf'
 
 const Navigation = styled.div`
-  background-color: #ffbf00;
+  background-color: whitesmoke;
 `
 const Logo = styled.img`
   width: 6%;
+
+  @media (max-width: 500px) {
+    width: 20%;
+  }
 `
 
 class App extends React.Component {
@@ -48,15 +53,16 @@ class App extends React.Component {
     return (
       <Container className="p-0" fluid={true}>
         <Navigation>
-          <Navbar className="border-bottom" expand="lg">
+          <Navbar expand="lg">
             <Logo alt="" src={skulllogo}></Logo>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle" >
               <Nav className="ml-auto">
-                <Link className="nav-link" to="/" >Home</Link>
-                <Link className="nav-link" to="/about" >About</Link>
-                <Link className="nav-link" to="/contact" >Contact</Link>
+                <Link style={{color: "black"}} className="nav-link" to="/" >Home</Link>
+                <Link style={{color: "black"}} className="nav-link" to="/about" >About</Link>
+                <Link style={{color: "black"}} className="nav-link" to="/contact" >Contact</Link>
+                <a style={{color: "black"}} className="nav-link" href = {resume} target = "_blank">Resume</a>
               </Nav>
             </Navbar.Collapse>
           </Navbar>

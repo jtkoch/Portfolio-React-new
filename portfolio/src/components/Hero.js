@@ -24,7 +24,7 @@ const Big = styled.h1`
     padding: 0%;
 
     @media (max-width: 500px) {
-        font-size: 2.2rem;
+        font-size: 3rem;
     }
 `
 const Small = styled.h3`
