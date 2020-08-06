@@ -15,6 +15,7 @@ import resume from './images/resume.pdf'
 
 const Navigation = styled.div`
   background-color: whitesmoke;
+  font-family: 'Josefin Sans', sans-serif;
 `
 const Logo = styled.img`
   width: 110px;

@@ -22,6 +22,7 @@ const Big = styled.h1`
     font-size: 4.5rem;
     font-weight: 800;
     padding: 0%;
+    font-family: 'Josefin Sans', sans-serif;
 
     @media (max-width: 500px) {
         font-size: 3rem;
@@ -32,6 +33,8 @@ const Small = styled.h3`
     width: 100%;
     font-weight: 500;
     padding: 0%;
+    font-family: 'Josefin Sans', sans-serif;
+    
 
     @media (max-width: 500px) {
         font-size: 1rem;

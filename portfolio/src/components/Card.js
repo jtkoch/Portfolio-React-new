@@ -3,6 +3,7 @@ import CardInfo from '../components/CardInfo'
 import styled from 'styled-components'
 
 const Project = styled.div`
+    font-family: 'Josefin Sans', sans-serif;
     
     @media (max-width: 500px) {
         margin-bottom: 100px;

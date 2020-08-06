@@ -1,6 +1,15 @@
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHtml5, faCss3, faSass, faJsSquare, faReact, faWordpress, faPython, faNodeJs } from "@fortawesome/free-brands-svg-icons"
+import { 
+    faHtml5, 
+    faCss3, 
+    faSass, 
+    faJsSquare, 
+    faReact, 
+    faWordpress, 
+    faPython, 
+    faNodeJs
+} from "@fortawesome/free-brands-svg-icons"
 import Hero from '../components/Hero'
 import Carousel from '../components/Carousel'
 import styled from 'styled-components'
@@ -21,8 +30,9 @@ const Fonts = styled.div`
 
 function HomePage(props) {
     return (
-        <Home>
+        <Home>           
             <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+
 
                 <Fonts>
                     <FontAwesomeIcon className="m-1" icon={faHtml5}></FontAwesomeIcon>

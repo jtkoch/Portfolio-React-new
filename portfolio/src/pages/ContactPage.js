@@ -12,6 +12,12 @@ import styled from 'styled-components'
 const LetsTalk = styled.div`
   padding-top: 3%;
   width: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+
+  @media (max-width: 500px) {
+    font-size: 1rem;
+  }
 `
  
 class ContactPage extends React.Component {
