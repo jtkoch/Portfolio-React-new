@@ -56,7 +56,9 @@ class App extends React.Component {
       <Container className="p-0" fluid={true}>
         <Navigation>
           <Navbar expand="lg">
-            <Logo alt="" src={skulllogo}></Logo>
+            <a href="/">
+              <Logo alt="" src={skulllogo}></Logo>
+            </a>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle" >
