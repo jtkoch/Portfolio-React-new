@@ -14,7 +14,7 @@ import skulllogo from './images/skulllogo.png'
 import resume from './images/resume.pdf'
 
 const Navigation = styled.div`
-  background-color: whitesmoke;
+  background-color: transparent;
   font-family: 'Josefin Sans', sans-serif;
 `
 const Logo = styled.img`
@@ -53,7 +53,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Container className="p-0" fluid={true}>
+      <Container className="p-0 App"  fluid={true}>
         <Navigation>
           <Navbar expand="lg">
             <a href="/">

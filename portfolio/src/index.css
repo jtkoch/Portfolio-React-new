@@ -22,11 +22,7 @@ code {
   border-radius: 10px;
   width: 300px;
   height: 400px;
-  box-shadow: 10px 15px 30px 10px gray;
-}
-
-.j-card-image:hover {
-  cursor: pointer;
+  box-shadow: 5px 5px 5px 2px gray;
 }
 
 .j-card-info {
