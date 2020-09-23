@@ -4,19 +4,14 @@ import styled from 'styled-components'
 
 const Project = styled.div`
     font-family: 'Josefin Sans', sans-serif;
-    
-    @media (max-width: 500px) {
-        margin-bottom: 100px;
-        height: 450px;
-    }
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    margin-bottom: 60px;
 `
 const ProjectImg = styled.img`
     padding: 1%;
-
-    @media (max-width: 500px) {
-        width: 90%;
-        height: 90%;
-    }
 `
 
 function Card(props) {

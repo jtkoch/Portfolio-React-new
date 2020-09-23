@@ -2,10 +2,10 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 
-import tetris from '../images/tetris.jpg'
-import timer from '../images/timer.jpg'
-import todo from '../images/todo.jpg'
-import gol from '../images/gol.jpg'
+import tetris from '../images/tetris.png'
+import sailboat from '../images/sailboat.png'
+import tarot from '../images/tarot.png'
+import gol from '../images/gol.png'
 
 import Card from '../components/Card'
 
@@ -18,7 +18,7 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Tetris',
-                    subTitle: 'The classic game of tetris built with vanilla JS',
+                    subTitle: 'The classic game of tetris built with JavaScript',
                     imgSrc: tetris,
                     code: 'https://github.com/jtkoch/tetris-app',
                     link: 'https://sleepy-morse-844912.netlify.app/',
@@ -26,26 +26,26 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: 'Countown Timer',
-                    subTitle: 'This is a countdown timer written with React js',
-                    imgSrc: timer,
-                    code: 'https://github.com/jtkoch/Countdown-Timer',
-                    link: 'https://jtkoch.github.io/Countdown-Timer/',
+                    title: 'Away At Last',
+                    subTitle: 'A website for Away At Last Travel & Tours built with HTML, CSS, JavaScript',
+                    imgSrc: sailboat,
+                    code: 'https://github.com/jtkoch/away-at-last',
+                    link: 'https://www.awayatlasttravel.com/',
                     selected: false
                 },
                 {
                     id: 2,
-                    title: 'Todo',
-                    subTitle: 'This is a simple Todo app built with React',
-                    imgSrc: todo,
-                    code: 'https://github.com/jtkoch/React-Todo/tree/Jensen-Koch',
-                    link: 'https://angry-babbage-4ce737.netlify.app/',
+                    title: 'Moon Travelers Tarot',
+                    subTitle: 'A website for a Tarot & Oracle Company built with React JS and Node JS',
+                    imgSrc: tarot,
+                    code: 'https://github.com/jtkoch/moon-travelers-tarot',
+                    link: 'https://moon-travelers-tarot.vercel.app/',
                     selected: false
                 },
                 {
                     id: 3,
                     title: 'Conway\'s Game of Life',
-                    subTitle: 'The iconic computer science game of cellular automaton',
+                    subTitle: 'The iconic computer science game of cellular automaton built with React JS',
                     imgSrc: gol,
                     code: 'https://github.com/jtkoch/conways-game-of-life',
                     link: 'https://conways-game-of-life-plum.vercel.app/',

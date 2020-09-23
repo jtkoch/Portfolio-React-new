@@ -16,6 +16,12 @@ code {
 
 .j-card {
   margin: 0px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .j-card-image {
@@ -28,6 +34,9 @@ code {
 .j-card-info {
   margin-top: 10px;
   min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .j-card-title {
@@ -37,7 +46,7 @@ code {
 
 .j-card-sub-title {
   font-size: 16px;
-  margin: 0px;
+  margin: 10px;
 }
 
 .success-msg {
