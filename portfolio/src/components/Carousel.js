@@ -36,7 +36,7 @@ class Carousel extends React.Component {
                 {
                     id: 2,
                     title: 'Moon Travelers Tarot',
-                    subTitle: 'A website for a Tarot & Oracle Company built with React JS and Node JS',
+                    subTitle: 'A website for a Tarot & Oracle Practice built with React, Node, and Express JS',
                     imgSrc: tarot,
                     code: 'https://github.com/jtkoch/moon-travelers-tarot',
                     link: 'https://moon-travelers-tarot.vercel.app/',
