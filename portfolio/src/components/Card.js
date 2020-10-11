@@ -7,7 +7,7 @@ const Project = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 400px;
+    width: 250px;
     margin-bottom: 60px;
 `
 const ProjectImg = styled.img`
